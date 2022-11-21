@@ -13,6 +13,14 @@
 -- Run ORB-SLAM2 using `launch_orbslam2.sh`
 
 
+# Instructions for inputs and outputs:
+- The drone can be controlled using ROS messages to the topic of `/firefly/command/pose`
+-- For example: `rostopic pub /firefly/command/pose geometry_msgs/PoseStamped "header: ... your message here (you can tab to complete the message)"`
+-- The message format is a standard PoseStamped message with xyz position and quaternion xyzw orientation
+- Camera feed from the drone is accessible at the topic `/firefly/vi_sensor/left/image_raw`
+- The Pose output from ORB-SLAM2 is available at the topic of `/orb_slam2_rgbd/pose`
+
+
 # Resources:
 - The simulation environment is independently available at: `https://github.com/ethz-asl/rotors_simulator`
 - ORB-SLAM2 ROS package is available at: `https://github.com/appliedAI-Initiative/orb_slam_2_ros`

@@ -1,0 +1,14 @@
+material boeing747/Diffuse
+{
+	receive_shaddows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Boeing-747.jpg
+			}
+		}
+	}
+}

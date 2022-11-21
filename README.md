@@ -22,5 +22,5 @@
 
 
 # Resources:
-- The simulation environment is independently available at: `https://github.com/ethz-asl/rotors_simulator`
-- ORB-SLAM2 ROS package is available at: `https://github.com/appliedAI-Initiative/orb_slam_2_ros`
+- The simulation environment is independently available at: https://github.com/ethz-asl/rotors_simulator
+- ORB-SLAM2 ROS package is available at: https://github.com/appliedAI-Initiative/orb_slam_2_ros

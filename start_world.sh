@@ -1,0 +1,1 @@
+roslaunch rotors_gazebo mav_planeworld_full.launch
